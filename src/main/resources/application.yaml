@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+  data:
+    jpa:
+      repositories:
+        bootstrap-mode: DEFAULT
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+#logging:
+#  level:
+#    root: debug
